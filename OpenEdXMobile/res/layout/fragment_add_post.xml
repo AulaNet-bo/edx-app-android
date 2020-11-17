@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@color/edx_brand_gray_x_back">
+    android:background="@color/neutralLight">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             <RadioGroup
                 android:id="@+id/discussion_question_segmented_group"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/radio_tab_height"
                 android:layout_gravity="center"
                 android:orientation="horizontal"
                 android:clipToPadding="true">
@@ -65,13 +65,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@color/white"
             android:orientation="vertical"
             android:paddingLeft="@dimen/edx_margin"
+            android:paddingTop="@dimen/widget_margin"
             android:paddingRight="@dimen/edx_margin"
-            android:paddingBottom="@dimen/widget_margin"
-            android:paddingTop="@dimen/widget_margin">
+            android:paddingBottom="@dimen/widget_margin">
 
             <EditText
                 android:id="@+id/title_edit_text"

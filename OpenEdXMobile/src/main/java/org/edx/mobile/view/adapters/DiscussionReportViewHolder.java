@@ -30,7 +30,7 @@ public class DiscussionReportViewHolder {
                 R.string.discussion_responses_report_label;
         reportTextView.setText(reportTextView.getResources().getString(reportStringResId));
 
-        int iconColor = isReported ? R.color.edx_brand_primary_base : R.color.edx_brand_gray_base;
+        int iconColor = isReported ? R.color.primaryBaseColor : R.color.primaryBaseColor;
         reportIconImageView.setIconColorResource(iconColor);
     }
 

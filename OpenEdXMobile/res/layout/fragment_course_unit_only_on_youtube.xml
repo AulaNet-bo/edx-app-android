@@ -11,7 +11,7 @@
         android:layout_width="@dimen/large_indicator_icon_width"
         android:layout_height="@dimen/large_indicator_icon_height"
         android:layout_margin="@dimen/edx_margin"
-        app:iconColor="@color/edx_brand_gray_back"
+        app:iconColor="@color/neutralDark"
         app:iconName="fa-film" />
 
     <TextView
@@ -24,7 +24,7 @@
         android:gravity="center"
         android:singleLine="false"
         android:textAlignment="center"
-        android:textColor="@color/edx_brand_gray_base"
+        android:textColor="@color/primaryBaseColor"
         android:textSize="@dimen/edx_base"
         tools:text="@string/assessment_only_on_youtube" />
 

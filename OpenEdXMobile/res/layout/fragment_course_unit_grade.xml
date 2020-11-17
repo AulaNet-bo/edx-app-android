@@ -14,7 +14,7 @@
             android:layout_width="@dimen/unit_unavailable_error_icon_size"
             android:layout_height="@dimen/unit_unavailable_error_icon_size"
             android:layout_margin="@dimen/widget_margin_double"
-            app:iconColor="@color/edx_brand_gray_back"
+            app:iconColor="@color/neutralDark"
             app:iconName="fa-laptop" />
 
         <TextView
@@ -27,7 +27,7 @@
             android:gravity="center"
             android:singleLine="false"
             android:textAlignment="center"
-            android:textColor="@color/edx_brand_gray_base"
+            android:textColor="@color/primaryBaseColor"
             android:textSize="@dimen/edx_base"
             tools:text="@string/assessment_not_available" />
 
@@ -42,7 +42,7 @@
             android:singleLine="false"
             android:text="@string/assessment_explore_on_web"
             android:textAlignment="center"
-            android:textColor="@color/edx_brand_gray_base"
+            android:textColor="@color/primaryBaseColor"
             android:textSize="@dimen/edx_base" />
 
         <androidx.appcompat.widget.AppCompatButton
