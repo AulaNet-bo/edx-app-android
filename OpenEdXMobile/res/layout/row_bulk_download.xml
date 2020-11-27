@@ -7,7 +7,7 @@
         android:id="@+id/cl_bulk_download_view_root"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/accentAColor"
+        android:background="@color/neutralXLight"
         android:contentDescription="@string/view_downloads"
         android:minHeight="@dimen/bulk_download_view_height"
         android:orientation="vertical"

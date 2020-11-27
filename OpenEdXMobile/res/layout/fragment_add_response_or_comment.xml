@@ -63,7 +63,7 @@
 
             <FrameLayout
                 android:id="@+id/btnAddComment"
-                style="@style/edX.Widget.CreationButtonLayout"
+                style="@style/edX.Widget.CreationRoundButtonLayout"
                 android:contentDescription="@string/discussion_add_response_button_description">
 
                 <TextView

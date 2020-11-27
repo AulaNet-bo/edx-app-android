@@ -68,7 +68,7 @@
                             android:id="@+id/language_text"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/neutralDark"
+                            android:textColor="@color/neutralXXDark"
                             android:textSize="@dimen/edx_x_small"
                             tools:text="English" />
                     </LinearLayout>
@@ -95,7 +95,7 @@
                             android:id="@+id/location_text"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/neutralDark"
+                            android:textColor="@color/neutralXXDark"
                             android:textSize="@dimen/edx_x_small"
                             tools:text="Mexico" />
                     </LinearLayout>
@@ -105,7 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/x_small_icon_margin"
-                        android:textColor="@color/neutralDark"
+                        android:textColor="@color/neutralXXDark"
                         android:textSize="@dimen/edx_x_small"
                         android:visibility="gone"
                         tools:text="@string/profile_sharing_limited_by_you"

@@ -95,7 +95,7 @@
                 tools:hint="@string/discussion_body_hint_discussion" />
 
             <FrameLayout
-                style="@style/edX.Widget.CreationButtonLayout"
+                style="@style/edX.Widget.CreationRoundButtonLayout"
                 android:id="@+id/add_post_button">
 
                 <TextView

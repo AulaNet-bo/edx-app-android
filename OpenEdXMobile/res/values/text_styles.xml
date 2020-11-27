@@ -76,7 +76,7 @@
         <item name="android:maxWidth">@dimen/fullscreen_message_max_width</item>
         <item name="android:drawablePadding">@dimen/edx_margin</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/primaryBaseColor</item>
+        <item name="android:textColor">@color/neutralBlackT</item>
         <item name="android:textSize">@dimen/edx_small</item>
         <item name="android:visibility">gone</item>
     </style>
