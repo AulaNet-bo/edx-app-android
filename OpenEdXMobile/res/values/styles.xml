@@ -403,6 +403,10 @@
         <item name="android:fontFamily">?attr/fontSemiBold</item>
     </style>
 
+    <style name="edX.Widget.ActionBrandRoundPillButton" parent="edX.Widget.ActionBrandPillButton">
+        <item name="android:background">@drawable/edx_brand_round_button</item>
+    </style>
+
     <style name="edX.Widget.DisableableButton" parent="edX.Widget.Button">
         <item name="android:textColor">?attr/disableableButtonTextColor</item>
     </style>
